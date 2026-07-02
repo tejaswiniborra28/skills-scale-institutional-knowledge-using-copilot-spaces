@@ -1,25 +1,28 @@
 # OctoAcme Project Management Documentation
 
-Welcome to the OctoAcme Project Management Process Documentation. This folder contains comprehensive guides for all aspects of our project management methodology, designed to ensure consistency, quality, and alignment across all initiatives.
+Welcome to the OctoAcme Project Management Process Documentation. This folder contains comprehensive guides for all aspects of our project management methodology. Whether you're onboarding to a new project, scaling work across teams, or looking to understand our processes, you'll find the resources you need here.
 
-## Purpose
+## OctoAcme Project Management Overview
 
-These documents serve as the institutional knowledge backbone for OctoAcme projects, helping team members understand our processes, roles, and best practices. Whether you're starting a new project, managing execution, or capturing learnings, you'll find guidance here.
+OctoAcme follows a structured project management framework that ensures consistency, quality, and alignment across all initiatives. Our processes are designed around five core principles: **Customer-first** delivery, **Iterative** value, **Clear ownership**, **Data-informed** decisions, and **Psychological safety**. 
 
-## OctoAcme Project Lifecycle
+The OctoAcme lifecycle moves work through five distinct phases:
 
-Our project management approach follows a structured lifecycle:
+- **Initiation**: Validate business need through a lightweight Project One-pager that captures the problem statement, objectives, success metrics, stakeholders, and initial risks. Once stakeholder alignment is confirmed, the project advances.
 
-1. **Initiation** – Validate business need, define success metrics, align stakeholders
-2. **Planning** – Break down scope, estimate effort, identify dependencies and risks
-3. **Execution & Tracking** – Build, test, deliver in increments with regular progress reporting
-4. **Risk & Communication** – Identify and mitigate risks, keep stakeholders informed
-5. **Release & Deployment** – Deploy features safely with clear rollback plans
-6. **Retrospectives** – Capture learnings and drive continuous improvement
+- **Planning**: Break work into shippable increments with clear acceptance criteria. Identify dependencies, establish a Definition of Done, and create a prioritized backlog. Dependencies and risks are tracked for visibility and mitigation.
+
+- **Execution & Tracking**: Use GitHub Projects with columns (Backlog, Ready, In Progress, In Review, QA, Done) to manage day-to-day delivery. Pull requests are kept small (≤400 lines when possible) and require at least one approval. Daily standups (15 min) and weekly syncs ensure progress visibility and blocker resolution. Quality is embedded: unit tests, integration tests, end-to-end smoke tests, security scanning, and manual QA validate acceptance criteria.
+
+- **Release & Deployment**: Execute releases with pre-deployment checklists, smoke tests on staging, and rollback plans. Deployment windows are scheduled, post-deploy verifications confirm success, and stakeholders are notified.
+
+- **Retrospective & Continuous Improvement**: After each sprint or milestone, capture learnings in a structured format (what went well, what could improve, action items). Convert improvements into backlog items with clear owners and success criteria.
+
+**Communication** is a cornerstone: daily standups focus on progress and blockers, weekly PM-PdM syncs ensure alignment, and monthly stakeholder updates provide visibility. Risk escalation follows a three-level path: team-level triage in standups, PM escalation to Product Lead and dependent teams, and sponsor-level escalation for business-impacting issues.
 
 ---
 
-## Core Process Documents
+## Key Process Documents
 
 ### 📋 [Project Management Overview](./octoacme-project-management-overview.md)
 **Start here** for a high-level introduction to OctoAcme's approach, core principles, roles, and key artifacts.
@@ -104,6 +107,16 @@ Our project management approach follows a structured lifecycle:
 2. Review [Roles and Personas](./octoacme-roles-and-personas.md) to find your role
 3. Explore the relevant process documents linked above
 4. Ask your PM or Project Lead for specific project context
+
+---
+
+## Core Roles & Responsibilities
+
+- **Project Manager (PM)**: Coordinates delivery, manages schedules, risks, and communications
+- **Product Manager (PdM)**: Defines outcomes, prioritizes backlog, and measures success
+- **Developers**: Implement features, collaborate on design, and maintain quality through testing
+- **QA/Testing**: Validates quality and acceptance criteria
+- **Stakeholders**: Provide inputs, approvals, and strategic direction
 
 ---
 
